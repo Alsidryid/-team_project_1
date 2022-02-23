@@ -27,14 +27,18 @@
     height: 399px;
   }
 
-  @media screen and (min-width: 1280px) {
-    height: 665px;
-  }
+  
 }
 
 .logo {
-  margin-right: 20px;
-  display: inline-block;
+  display: flex;
+  align-items: center;
+
+  
+}
+
+.logo-picture{
+  margin-right: 10px;
 }
 
 .header-logo {
@@ -43,7 +47,7 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  margin-left: 20px;
+  
 
   @media screen and (min-width: 768px) and (max-width: 1279px) {
     margin-left: 34px;
@@ -56,6 +60,7 @@
 }
 
 .Logo-tekst {
+  margin-left: 20px;
   display: inline-block;
   font-family: Titan One;
 font-style: normal;
@@ -412,10 +417,11 @@ top: 333px;
   }
 }
 .hero-text-name {
+  
   font-family: DM Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.28;
   text-align: right;
   
@@ -511,6 +517,7 @@ bottom: 292px;
   position: absolute;
   left: 34px;
 bottom: 173px;
+
 }
 @media screen and (max-width: 320px) {
   position: absolute;
